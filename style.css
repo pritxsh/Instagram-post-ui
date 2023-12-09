@@ -1,0 +1,111 @@
+/* This is a user generated snippet for css. Steps--> setting icon-> user snippet-> search css */
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: white;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Lobster', sans-serif;
+    font-weight: lighter;
+    font-size: 50px;
+    position: absolute;
+    top: 0%;
+    right: 75.8%;
+}
+
+#container{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    
+}
+
+#profile{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+    border: 2px solid orangered;
+    cursor: pointer;
+}
+
+#post{
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    object-fit: cover;
+    object-position: center;
+}
+#container span{
+    position: absolute;
+    top: 1.6%;
+    left: 12%;
+    font-weight: 600;
+    cursor: pointer;
+}
+.menu{
+    margin-top: 6px;
+    position: absolute;
+    top: 13.9%;
+    left: 29.5%;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+#container i{
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: 60%;
+    left: 50%; 
+    transform: translate(-50%,-50%) scale(0);
+    opacity: 0;
+}
+
+.engage{
+    margin-top: 6px;
+    position: absolute;
+    top: 94%;
+    left: -7px;
+    font-size: 28px;
+    cursor: pointer;
+}
+.engage i{
+    margin: 0 5px;
+}
+
+.love:hover{
+    color: grey;
+}
+.comment:hover{
+    color: grey;
+}
+.share:hover{
+    color: grey;
+}
+.save:hover{
+    color: grey;
+}
+
+.ri-bookmark-line{
+    position: absolute;
+    right: -289px;
+}
