@@ -16,9 +16,8 @@ body, html{
 body{
     background-color: white;
     display: flex;
-    position: absolute;
-    left: 35%;
     align-items: center;
+    justify-content: center;
 }
 
 h2{
@@ -26,15 +25,14 @@ h2{
     font-weight: lighter;
     font-size: 50px;
     position: absolute;
-    top: 0%;
-    right: 75.8%;
+    top: -18%;
+    right: 23%;
 }
 
 #container{
     width: 400px;
     height: 400px;
     position: relative;
-    
 }
 
 #profile{
@@ -52,7 +50,7 @@ h2{
     height: 100%;
     border-radius: 4px;
     object-fit: cover;
-    object-position: center;
+    /* object-position: center; */
 }
 #container span{
     position: absolute;
@@ -64,27 +62,27 @@ h2{
 .menu{
     margin-top: 6px;
     position: absolute;
-    top: 13.9%;
-    left: 29.5%;
+    top: 1%;
+    right: 0;
     font-size: 28px;
     cursor: pointer;
 }
 
-#container i{
+.ri-heart-3-fill{
     color: white;
     font-size: 70px;
     position: absolute;
     top: 60%;
     left: 50%; 
-    transform: translate(-50%,-50%) scale(0);
+    transform: translate(-50%,-50%) scale(1);
     opacity: 0;
 }
 
 .engage{
     margin-top: 6px;
     position: absolute;
-    top: 94%;
-    left: -7px;
+    top: 109%;
+    left: -6px;
     font-size: 28px;
     cursor: pointer;
 }
@@ -106,6 +104,11 @@ h2{
 }
 
 .ri-bookmark-line{
+    margin-top: 6px;
     position: absolute;
-    right: -289px;
+    top: 110%;
+    left: 94%;
+    font-size: 28px;
+    cursor: pointer;
+    
 }
