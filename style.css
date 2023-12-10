@@ -68,13 +68,14 @@ h2{
     cursor: pointer;
 }
 
-.ri-heart-3-fill{
+.whiteheart{
     color: white;
     font-size: 70px;
     position: absolute;
     top: 60%;
     left: 50%; 
-    transform: translate(-50%,-50%) scale(1);
+    transform: translate(-50%,-50%) scale(0);
+    transition: transform 0.4s ease;
     opacity: 0;
 }
 
@@ -90,7 +91,11 @@ h2{
     margin: 0 5px;
 }
 
-.love:hover{
+.redheart{
+    color: red;
+}
+
+.ri-heart-line:hover{
     color: grey;
 }
 .comment:hover{
