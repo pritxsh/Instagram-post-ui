@@ -1,1 +1,2 @@
-# Instagram post UI. I has double tap heart feature
+# Instagram post UI. 
+It has double tap heart feature
