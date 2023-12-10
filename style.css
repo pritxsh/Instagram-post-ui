@@ -11,12 +11,14 @@ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, O
 
 body, html{
     width: 100%;
-    height: 100%;
+    height: 130vh;
 }
 body{
     background-color: white;
     display: flex;
-    align-items: center;
+    align-items: self-start;
+    position: absolute;
+    top: 14%;
     justify-content: center;
 }
 
